@@ -4,9 +4,12 @@ import jakarta.servlet.http.*;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.HashMap;
 
 
 public class FrontServlet extends HttpServlet {
+
+    HashMap<String,Mapping> MappingUrls;
     protected void ProcessRequest(HttpServletRequest request, HttpServletResponse response) throws Exception
     {
         response.setContentType("text/html");
