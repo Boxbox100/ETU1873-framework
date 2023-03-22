@@ -17,14 +17,14 @@ public class FrontServlet extends HttpServlet {
 
     public void init() throws ServletException {
         this.MappingUrls=new HashMap<>();
-        File fichier= new File("../test");
+        File fichier= new File("/home/pri/IdeaProjects/ETU1873-framework/src/main/java/test/");
         File[] files= fichier.listFiles();
         for(File file:files)
         {
             Class classtemp=null;
             String fileName=file.getName().split(".java")[0];
             try {
-                classtemp=Class.forName("etu1873.framework.bob."+fileName);
+                classtemp=Class.forName("test."+fileName);
             } catch (ClassNotFoundException e) {
                 throw new RuntimeException(e);
             }
@@ -68,7 +68,24 @@ public class FrontServlet extends HttpServlet {
     {
         response.setContentType("text/html");
         PrintWriter out= response.getWriter();
-        out.println(request.getRequestURL());
+        String prefix="http://localhost:8080/ETU1873_framework_war_exploded/";
+        String bob =request.getRequestURL().toString().split(prefix)[1];
+
+        if (MappingUrls.containsKey(bob))
+        {
+            Mapping map= MappingUrls.get(bob);
+
+            out.println("nom de classe:" +map.getClassName());
+            out.println("method"+ map.getMethod()) ;
+
+        }
+        else
+        {
+            out.println("tsy nety");
+        }
+
+        out.println(bob);
+        out.println();
 
     }
 
