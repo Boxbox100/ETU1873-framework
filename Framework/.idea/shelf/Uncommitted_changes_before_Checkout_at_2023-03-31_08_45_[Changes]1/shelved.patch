@@ -1,0 +1,34 @@
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/vcs.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/main/java/ETU1873/framework/servlet/ModelView.java
+===================================================================
+diff --git a/src/main/java/ETU1873/framework/servlet/ModelView.java b/src/main/java/ETU1873/framework/servlet/ModelView.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/ETU1873/framework/servlet/ModelView.java	
+@@ -0,0 +1,13 @@
++package ETU1873.framework.servlet;
++
++public class ModelView {
++    String view;
++
++    public String getView() {
++        return view;
++    }
++
++    public void setView(String view) {
++        this.view = view;
++    }
++}

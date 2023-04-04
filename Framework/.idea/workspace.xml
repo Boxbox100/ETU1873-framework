@@ -2,27 +2,27 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="testFramework:war exploded" />
+      <artifact name="Framework:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed83f71-66eb-4f84-8509-b5011f7b3e88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Framework/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45__Changes_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/src/main/java/ETU1873/framework/servlet/Mapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/andrana/hah.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/framework.jar" afterDir="false" />
+    <list default="true" id="698efa3a-25cf-4500-9676-3e8586fec02a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ETU1873/framework/servlet/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/WEB-INF/classes/andrana/hah.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/WEB-INF/lib/framework.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../script.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/hah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrana/hah.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testFramework/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testFramework/src/main/java/test/hah.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/src/main/java/andrana/hah.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testFramework/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="sprint4" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
@@ -49,23 +54,20 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2NdM82ulRRbYVTPP1ykNqzlmxfb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2NdMEaFOuiJpxDbkjUb10fhC3u0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/pri/apache-tomcat-10.0.27/lib/servlet-api.jar&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pri/IdeaProjects/ETU1873-framework/Framework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
@@ -73,14 +75,14 @@
   <component name="RunManager">
     <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
-        <artifact name="testFramework:war exploded">
+        <artifact name="Framework:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/testFramework_war_exploded" />
+            <option name="CONTEXT_PATH" value="/Framework_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="2cad5601-63f0-49b3-b2ae-531eb8bfb616" />
+        <option name="BASE_DIRECTORY_NAME" value="c9947a83-dda6-4950-8677-8bffd319e683" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -105,7 +107,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="testFramework:war exploded" />
+          <artifact name="Framework:war exploded" />
         </option>
       </method>
     </configuration>
@@ -113,20 +115,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9ed83f71-66eb-4f84-8509-b5011f7b3e88" name="Changes" comment="" />
-      <created>1679989345658</created>
+      <changelist id="698efa3a-25cf-4500-9676-3e8586fec02a" name="Changes" comment="" />
+      <created>1679989398208</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679989345658</updated>
-      <workItem from="1679989347808" duration="2089000" />
-      <workItem from="1679992297316" duration="321000" />
-      <workItem from="1679992800744" duration="2501000" />
-      <workItem from="1680177310836" duration="5781000" />
-      <workItem from="1680248776132" duration="1607000" />
-      <workItem from="1680514168002" duration="611000" />
-      <workItem from="1680515291991" duration="1607000" />
-      <workItem from="1680520024386" duration="1621000" />
-      <workItem from="1680584967125" duration="599000" />
+      <updated>1679989398208</updated>
+      <workItem from="1679989399857" duration="2429000" />
+      <workItem from="1679992232413" duration="394000" />
+      <workItem from="1679992772176" duration="1225000" />
+      <workItem from="1680177252091" duration="5640000" />
+      <workItem from="1680240612700" duration="1549000" />
+      <workItem from="1680514807862" duration="4151000" />
+      <workItem from="1680520052279" duration="4286000" />
+      <workItem from="1680584969459" duration="599000" />
     </task>
     <servers />
   </component>
@@ -143,8 +144,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
