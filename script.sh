@@ -10,7 +10,7 @@ export CLASSPATH=$CLASSPATH:.:/home/pri/IdeaProjects/ETU1873-framework/testFrame
 echo $CLASSPATH
 javac -classpath $CLASSPATH:/home/pri/IdeaProjects/ETU1873-framework/testFramework/src/main/webapp/WEB-INF/classes -d /home/pri/IdeaProjects/ETU1873-framework/testFramework/src/main/webapp/WEB-INF/classes /home/pri/IdeaProjects/ETU1873-framework/testFramework/src/main/java/andrana/*.java
 cd /home/pri/IdeaProjects/ETU1873-framework/testFramework/src/main/webapp
-jar -cf ./testframework.war ./WEB-INF
+jar -cf ./testframework.war .
 ls
 cp -f ./testframework.war /home/pri/apache-tomcat-10.0.27/webapps
 

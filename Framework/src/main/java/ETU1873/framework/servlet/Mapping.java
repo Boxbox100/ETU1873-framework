@@ -17,11 +17,13 @@ public class Mapping {
         this.className = className;
     }
 
-    public String getMethod() {
+    public String getMethods() {
         return method;
     }
 
     public void setMethod(String method) {
         this.method = method;
     }
+
+
 }

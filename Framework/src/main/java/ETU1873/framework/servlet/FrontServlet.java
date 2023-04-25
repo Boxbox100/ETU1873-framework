@@ -1,5 +1,6 @@
 package ETU1873.framework.servlet;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 
@@ -8,6 +9,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.lang.reflect.Method;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 
 public class FrontServlet extends HttpServlet {
@@ -75,11 +78,28 @@ public class FrontServlet extends HttpServlet {
 
         if (MappingUrls.containsKey(bob))
         {
+            String nom = (String) request.getAttribute("nom");
+            String prenom=(String) request.getAttribute("prenom");
+
+
             Mapping map= MappingUrls.get(bob);
+            Class<?> tempClass=Class.forName("andrana."+map.getClassName());
+            Object objet=tempClass.newInstance();
+            //objet.getClass().getMethod()
+            ModelView model=(ModelView)objet.getClass().getMethod(map.getMethods()).invoke(objet);
+            out.println("hello");
 
-            out.println("nom de classe:" +map.getClassName());
-            out.println("method"+ map.getMethod()) ;
 
+            Set setkey =model.getData().keySet();
+            for(Map.Entry m: model.getData().entrySet())
+            {
+                request.setAttribute((String) m.getKey(),m.getValue());
+                out.println(request.getAttribute("key"));
+            }
+
+            String obj= model.getView();
+            RequestDispatcher dispatch=request.getRequestDispatcher(obj);
+            dispatch.forward(request,response);
 
 
         }
@@ -87,10 +107,6 @@ public class FrontServlet extends HttpServlet {
         {
             out.println("tsy nety");
         }
-
-        out.println(bob);
-        out.println();
-
     }
 
 

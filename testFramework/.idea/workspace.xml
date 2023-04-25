@@ -10,19 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ed83f71-66eb-4f84-8509-b5011f7b3e88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Framework/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45__Changes_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/src/main/java/ETU1873/framework/servlet/Mapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/andrana/hah.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/framework.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Framework/src/main/classe/ETU1873/framework/servlet/ModelView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Framework/src/main/java/ETU1873/framework/servlet/ModelView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/andrana/Emp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/andrana/emp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fromulaire.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-31_08_45__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/src/main/classe/ETU1873/framework/servlet/FrontServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/src/main/classe/ETU1873/framework/servlet/FrontServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/src/main/classe/ETU1873/framework/servlet/Mapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/src/main/classe/ETU1873/framework/servlet/Mapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/src/main/classe/framework.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/src/main/classe/framework.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/src/main/java/ETU1873/framework/servlet/FrontServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/src/main/java/ETU1873/framework/servlet/FrontServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/src/main/java/ETU1873/framework/servlet/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/src/main/java/ETU1873/framework/servlet/Mapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../script.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/hah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrana/hah.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrana/hah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrana/hah.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/andrana/hah.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/andrana/hah.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/framework.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/framework.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/testframework.war" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/testframework.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -57,19 +68,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/pri/apache-tomcat-10.0.27/lib/servlet-api.jar&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/pri/IdeaProjects/ETU1873-framework/testFramework/src/main/webapp",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -126,7 +145,14 @@
       <workItem from="1680514168002" duration="611000" />
       <workItem from="1680515291991" duration="1607000" />
       <workItem from="1680520024386" duration="1621000" />
-      <workItem from="1680584967125" duration="599000" />
+      <workItem from="1680584967125" duration="5362000" />
+      <workItem from="1680779610349" duration="2933000" />
+      <workItem from="1680851109367" duration="1204000" />
+      <workItem from="1681726590272" duration="10000" />
+      <workItem from="1681726621450" duration="22000" />
+      <workItem from="1681726713925" duration="3094000" />
+      <workItem from="1681795493013" duration="3402000" />
+      <workItem from="1682400831393" duration="6093000" />
     </task>
     <servers />
   </component>
