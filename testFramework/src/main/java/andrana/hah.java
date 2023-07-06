@@ -6,7 +6,7 @@ public class hah {
     public ModelView bob ()
     {
         ModelView m1=new ModelView("test.jsp");
-       m1.addItem("key","coucouuuuuuu");
+       m1.addItem("key",this);
         return m1;
     }
     String nom;
@@ -27,5 +27,27 @@ public class hah {
     public void setPrenom(String prenom) {
         this.prenom = prenom;
     }
+    public void setNom() {
+        this.nom="boboboboobbob";
+    }
+    public void setPrenom() {
+        this.prenom="befrbvergre";
+    }
+    @annota1(url="parametre")
+    public ModelView test(String nom,String prenom )
 
+    {
+        ModelView m1=new ModelView("test.jsp");
+        this.setNom(nom);
+        this.setPrenom(prenom);
+        m1.addItem("key",this);
+        return m1;
+    }
+
+    @annota1(url="nombre")
+    public int getnombre(int a,int b)
+    {
+        int c=a+b;
+        return c;
+    }
 }

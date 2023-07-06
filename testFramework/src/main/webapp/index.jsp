@@ -9,9 +9,12 @@
 </h1>
 <br/>
 <form method="post" action="bob">
+    <p>nom:</p>
 <input type="text" name="nom" id="t1">
+    <p>prenom:</p>
     <input type="text" name="prenom" id="">
-    <input type="button" value="OK">
+
+    <input type="submit" value="OK">
 </form>
 </body>
 </html>
