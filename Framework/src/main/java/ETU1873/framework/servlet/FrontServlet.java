@@ -19,6 +19,15 @@ import static ETU1873.framework.servlet.Mapping.*;
 public class FrontServlet extends HttpServlet {
 
     HashMap<String,Mapping> MappingUrls;
+    HashMap<String,Object>map_singleton;
+
+    public HashMap<String, Object> getMap_singleton() {
+        return map_singleton;
+    }
+
+    public void setMap_singleton(HashMap<String, Object> map_singleton) {
+        this.map_singleton = map_singleton;
+    }
 
     public HashMap<String, Mapping> getMappingUrls() {
         return MappingUrls;
@@ -30,6 +39,7 @@ public class FrontServlet extends HttpServlet {
 
     public void init() throws ServletException {
         this.MappingUrls=new HashMap<>();
+        this.map_singleton = new HashMap<>();
         File fichier= new File("/home/pri/IdeaProjects/ETU1873-framework/testFramework/src/main/java/andrana/");
         File[] files= fichier.listFiles();
         for(File file:files)
@@ -39,6 +49,7 @@ public class FrontServlet extends HttpServlet {
 
             try {
                 classtemp=Class.forName("andrana."+fileName);
+                this.checkSingleton(classtemp);
 
             } catch (ClassNotFoundException e) {
                 throw new RuntimeException(e);
@@ -63,6 +74,7 @@ public class FrontServlet extends HttpServlet {
 
 
                 }
+
             }
 
 
@@ -72,6 +84,58 @@ public class FrontServlet extends HttpServlet {
 
 
 
+    }
+    public void reset(Object objet) throws IllegalAccessException, InvocationTargetException{
+        Field[] lfield = objet.getClass().getDeclaredFields();
+        for (Field field : lfield) {
+            String fieldName = upperFirst(field.getName());
+            Method methodSet = null;
+            try {
+                methodSet = objet.getClass().getMethod("set"+fieldName, field.getType());
+            } catch (Exception e) {
+                continue;
+            }
+            if(field.getType().equals(int.class)){
+                methodSet.invoke(objet, 0);
+            }
+            if(field.getType().equals(double.class)){
+                methodSet.invoke(objet, 0);
+            }
+            if(field.getType().equals(float.class)){
+                methodSet.invoke(objet, 0);
+            }
+            if(field.getType().equals(Object.class)){
+                methodSet.invoke(objet, (Object) null);
+            }
+        }
+    }
+    public Object getInClassInstance(String className,Class<?> tempclass) throws IllegalAccessException, InvocationTargetException, InstantiationException{
+        Object objet = null;
+        if(this.getMap_singleton().containsKey(className)){
+            Object objet2 = this.getMap_singleton().get(className);
+            if(objet2 == null){
+                objet2 = tempclass.newInstance();
+                objet = objet2;
+                this.getMap_singleton().put(className, objet);
+            }else{
+                reset(objet2);
+                objet = objet2;
+            }
+        }
+        else{
+            objet = tempclass.newInstance();
+        }
+        return objet;
+    }
+
+
+
+    public void checkSingleton(Class check){
+        if(check.isAnnotationPresent(Singleton.class)){
+
+            String className = check.getName();
+            this.getMap_singleton().put(className, null);
+        }
     }
 
 //////////////////////////
@@ -93,15 +157,10 @@ public Method getMethod(String method, Object obj) {
 
 public ModelView getModeleView(String url, String[] params, String[] values,PrintWriter out) throws ClassNotFoundException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException {
     ModelView valiny = null;
-    out.println("1");
     if (getMappingUrls().get(url) instanceof Mapping) {
-        out.println("2");
         Mapping util = getMappingUrls().get(url);
-        out.println("3");
         Class<?> classname= Class.forName("andrana."+util.getClassName());
-        out.println("4");
-        Object test = classname.newInstance();
-        out.println("5");
+        Object test = this.getInClassInstance(classname.getName(), classname);
         Method m = this.getMethod(util.getMethods(), test);
         Field[] fields = classname.getDeclaredFields();
         Parameter[] parametres = m.getParameters();
@@ -114,6 +173,7 @@ public ModelView getModeleView(String url, String[] params, String[] values,Prin
                     Object type = null;
                     if (field.getType() == String.class) {
                         type = values[i];
+
                     } else if (field.getType() == int.class || field.getType() == Integer.class) {
                         type = Integer.valueOf(values[i]);
                     } else if (field.getType() == double.class || field.getType() == Double.class) {

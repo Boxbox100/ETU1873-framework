@@ -10,24 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="698efa3a-25cf-4500-9676-3e8586fec02a" name="Changes" comment="sprint6">
-      <change afterPath="$PROJECT_DIR$/../script2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/WEB-INF/classes/andrana/haha.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testframework.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/classe/ETU1873/framework/servlet/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ETU1873/framework/servlet/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/upload.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/classe/ETU1873/framework/servlet/FrontServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/classe/ETU1873/framework/servlet/FrontServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/classe/ETU1873/framework/servlet/Mapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/classe/ETU1873/framework/servlet/Mapping.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/classe/framework.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/classe/framework.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ETU1873/framework/servlet/FrontServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETU1873/framework/servlet/FrontServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ETU1873/framework/servlet/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ETU1873/framework/servlet/Mapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../framework.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../framework.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../script.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testFramework/src/main/java/andrana/hah.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/src/main/java/andrana/hah.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testFramework/src/main/webapp/WEB-INF/classes/andrana/hah.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/WEB-INF/classes/andrana/hah.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testFramework/src/main/webapp/WEB-INF/lib/framework.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/WEB-INF/lib/framework.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testFramework/src/main/webapp/fromulaire.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/fromulaire.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testFramework/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testFramework/src/main/webapp/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testFramework/src/main/webapp/testframework.war" beforeDir="false" afterPath="$PROJECT_DIR$/../testFramework/src/main/webapp/testframework.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,19 +64,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/pri/IdeaProjects/ETU1873-framework/Framework&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/pri/judy/framework",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ETU1873.framework.servlet" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -183,6 +186,7 @@
       <workItem from="1688562583362" duration="4965000" />
       <workItem from="1688643925872" duration="136000" />
       <workItem from="1688644100329" duration="8107000" />
+      <workItem from="1688729266997" duration="8445000" />
     </task>
     <task id="LOCAL-00001" summary="sprint6">
       <created>1682407784799</created>
